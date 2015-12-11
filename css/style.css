@@ -7,8 +7,9 @@ body {
 
 div {
 	border: 1px solid Chocolate;
-
+	padding: 0;
 }
+
 
 .top-navigation {
 	background-color: #FFFFFF;
@@ -56,3 +57,4 @@ li:hover {
 	letter-spacing: 0.03em;
 
 }
+
