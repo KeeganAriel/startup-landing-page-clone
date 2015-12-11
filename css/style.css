@@ -24,6 +24,19 @@ div {
 	margin-left: 1.5em;
 	display: inline-block;
 	margin-top: .7em;
+	margin-left: 2em;
+
+}
+
+li:hover {
+	color:black;
+}
+
+.top-navigation .links > .active {
+	color: #4C5058;
+	font-weight: 500;
+}
+
 
 }
 
