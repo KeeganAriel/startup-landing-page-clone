@@ -10,7 +10,6 @@ body {
 }
 
 div {
-	border: 1px solid Chocolate;
 	padding: 0;
 }
 
@@ -24,13 +23,14 @@ div {
 }
 
 .top-navigation .links {
-	float: right;
  	font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
+    order: 2;
     margin-top: .7em;
 	margin-left: 2em;
     -webkit-font-smoothing: antialiased;
+    align-self: flex-start;
 	
 }
 
@@ -49,19 +49,21 @@ div {
 }
 
 .top-navigation .logo {
-	padding: center;
+	height: 36px;
+	align-self: flex-start;
 
 }
 
 .top-navigation > .content {
 	width: 970px;
-	height: 70px;
+	display: flex;
 	margin: 0 auto;
 	padding: 0px 15px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	justify-content: space-between;
 }
 
 .introduction {
@@ -70,6 +72,5 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45rem;
-	overflow: auto;
 }
-}
+
