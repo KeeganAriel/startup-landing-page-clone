@@ -1,6 +1,20 @@
+
 body {
 	background-color: LightGray;
 }
 div {
 	border: 1px solid Chocolate;
+	border-width: %100
+}
+
+
+.top-navigation {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #DDD;
+
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
