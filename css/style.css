@@ -27,16 +27,18 @@ div {
     color: #838994;
     font-size: 16px;
     order: 2;
-    margin-top: .7em;
-	margin-left: 2em;
     -webkit-font-smoothing: antialiased;
-    align-self: flex-start;
+    
 	
 }
 
 .top-navigation .links li{
 	display: inline-block;
-	margin-left: 1.6em
+	margin-left: 1.6em;
+	align-self: flex-start;
+	justify-content: center;
+	margin-top: .5em;
+	
 }
 
 .top-navigation .links > .active {
@@ -49,8 +51,9 @@ div {
 }
 
 .top-navigation .logo {
-	height: 36px;
+	height: 70px;
 	align-self: flex-start;
+
 
 }
 
@@ -74,3 +77,11 @@ div {
 	height: 45rem;
 }
 
+.introduction h1 {
+	margin-top: 0;
+	padding-top: 17rem;
+	color: white;
+	text-align: center;
+
+
+}
