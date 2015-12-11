@@ -64,3 +64,12 @@ div {
 	letter-spacing: 0.03em;
 }
 
+.introduction {
+	background-image: url ('http://i464.photobucket.com/albums/rr7/Keegan_Ariel/first-background_zpsndjpt9z4.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45rem;
+	overflow: auto;
+}
+}
