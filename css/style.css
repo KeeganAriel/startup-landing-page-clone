@@ -1,20 +1,45 @@
 
 body {
 	background-color: LightGray;
-}
-div {
-	border: 1px solid Chocolate;
-	border-width: %100
+
+	
 }
 
+div {
+	border: 1px solid Chocolate;
+
+}
 
 .top-navigation {
 	background-color: #FFFFFF;
-	border-bottom: 1px solid #DDD;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	
+}
+
+.top-navigation .links li{
+	float: right;
+	margin-left: 1.5em;
+	display: inline-block;
+	margin-top: .7em;
 
 }
+
+.top-navigation .logo {
+	padding: center;
+
+}
+
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+
 }
