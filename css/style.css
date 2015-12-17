@@ -110,10 +110,12 @@ button {
     font-size: 1.125rem;
     text-align: center;
     inline-items: flex-start;
-
 }
 
 button:hover {
 	background-color: #D5360C;
-	
+}
+
+ul {
+	list-style: none;
 }
