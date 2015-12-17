@@ -113,6 +113,6 @@ button {
 
 }
 
-.buttons: hover {
-	color: white;
+button: hover {
+	background-color: green;
 }
