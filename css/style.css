@@ -9,6 +9,7 @@ body {
 	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	line-height: 1;
 }
 
 div {
@@ -170,4 +171,10 @@ ul {
 	border: 1px solid #EAEBEC;
 	padding: 0.625rem 0;
 	text-align: center;
+}
+
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994
 }
