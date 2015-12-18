@@ -121,6 +121,11 @@ button:hover {
 	background-color: #D5360C;
 }
 
+.cases {
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
 .cases .content {
 	margin-top: 7.875rem;
 	padding: none;
@@ -154,6 +159,8 @@ button:hover {
 
 .cases .devices > li {
 	display: inline-block;
+	width: 33.33333#%;
+	float: center;
 }
 
 ul {
