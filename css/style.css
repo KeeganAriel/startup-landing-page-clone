@@ -33,9 +33,7 @@ div {
     color: #838994;
     font-size: 16px;
     order: 2;
-    -webkit-font-smoothing: antialiased;
-    
-	
+    -webkit-font-smoothing: antialiased;	
 }
 
 .top-navigation .links li{
@@ -43,14 +41,14 @@ div {
 	margin-left: 1.6em;
 	align-self: flex-start;
 	justify-content: center;
-	margin-top: .5em;
-	
+	margin-top: .5em;	
 }
 
 .top-navigation .links > .active {
 	color: #4C5058;
 	font-weight: 500;
 }
+
 .top-navigation .links li:hover {
 	color: black;
 	cursor: pointer;
@@ -59,8 +57,6 @@ div {
 .top-navigation .logo {
 	height: 70px;
 	align-self: flex-start;
-
-
 }
 
 .top-navigation > .content {
@@ -92,7 +88,6 @@ div {
 	font-weight: 300;
 	font-size: 3.1em;
 	margin-bottom: 1em;
-
 }
 
 .introduction h2 {
@@ -120,7 +115,9 @@ button {
 button:hover {
 	background-color: #D5360C;
 }
-
+/*
+ * cases styles 
+ */
 .cases {
 	overflow: hidden;
 	padding-bottom: 5rem;
@@ -137,8 +134,6 @@ button:hover {
 	padding: 0 0.938rem;
 	margin:0 auto;
 	min-width: 37.5rem;
-
-
 }	
 
 .cases h2 {
@@ -148,19 +143,18 @@ button:hover {
 	font-family: 'Roboto', sans-serif;
 }
 
-.cases .devices h3 {
+.devices h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 	margin: 2.5rem 0 1.875rem;
 	display: block;
-
-
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
-.cases .devices > li {
-	display: inline-block;
-	width: 33.33333#%;
-	float: center;
+.devices {
+	display: flex;
+	justify-content: center;
 }
 
 ul {
@@ -171,7 +165,11 @@ ul {
 	overflow: auto;
 	padding-bottom: 9.375rem;
 	text-align: center;
+}
 
+.social .icons {
+	text-align: center;
+	padding: 0;
 }
 
 .social .icons > li {
@@ -183,6 +181,18 @@ ul {
 	border: 1px solid #EAEBEC;
 	padding: 0.625rem 0;
 	text-align: center;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
 }
 
 .social .copy {
