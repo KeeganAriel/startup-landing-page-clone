@@ -140,15 +140,14 @@ button:hover {
 	font-family: 'Roboto', sans-serif;
 }
 
-.cases .icons h3 {
+.cases .devices h3 {
 	font-weight: 400;
 	font-size: 1.563rem;
 	margin: 2.5rem 0 1.875rem;
 }
 
-.cases .icons > li {
+.cases .devices > li {
 	display: inline-block;
-	
 }
 
 ul {
